@@ -1,0 +1,5 @@
+l=input("Enter the items in the list").split(",")
+print("The input list is\n",l)
+s=set(l)
+final=list(s)
+print("The list after removing duplicates are \n",final)
